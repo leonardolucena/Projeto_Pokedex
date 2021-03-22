@@ -62,19 +62,20 @@ body {
 	text-align: center;
 	border-radius: 20px;
 	position: relative;
+	padding-bottom: 10px;
 }
 
 .card::after {
 	content: "";
   display: block;
-  width: 50%;
-  height: 45%;
-  border-radius: 100%;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
   background-color: #fff;
   opacity: .7;
   position: absolute;
-  top: 15%;
-  left: 25%;
+  top: 2%;
+  left: 15%;
 }
 
 .steel {
@@ -137,6 +138,10 @@ body {
 	background-color: #F5F5F5;
 }
 
+.ghost {
+	background-color: #d3b8d1;
+}
+
 .card:hover {
 	animation: bounce 0.5s linear;
 }
@@ -189,6 +194,29 @@ body {
 .logo-pokeball img{
     max-width: 144px;
 }
+
+.barras{
+	position: absolute;
+	width: 70%;
+	background-color: #0fd439;
+	text-align: center;
+	margin-left: 3px;
+	color: white;
+	padding: 1px 0;
+	border-radius: 15px;
+	border-bottom: 1px solid rgba(105, 105, 105, 0.7);
+	border-right: 1px solid rgba(105, 105, 105, 0.7);
+ }
+
+ .card-status{
+	 position: relative;
+	 left: -60%;
+	 text-align: right;
+	 color: #666;
+	 font-weight: bold;
+ }
+
+ 
 
 @keyframes pokeball{
     0%{
